@@ -1,0 +1,96 @@
+body
+{
+  background-image: url(BG.jpg);
+  background-size:100% 100%;
+}
+.align
+{
+position:fixed;
+top:45%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+#error
+{
+color:red;
+text-align: center;
+}
+#hide
+{
+display:none;
+color  : white;
+}
+button
+{
+box-shadow: 0 1px 16px 0 black, 0 1px 160px 0 red;
+margin  :auto;
+display :block;
+width   :120px;
+height  :30px;
+border-radius:8px; 
+text-align: center;
+background-color:#D3D3D3;
+border    : none;
+font-size :15px;
+color     :Black;
+cursor    :pointer;
+margin-top:10px;
+}
+button:hover
+{
+background-color:#778899;
+border:none;
+}
+button:active
+{
+background-color:#778899;
+border:none;
+}
+input
+{
+  border-radius:15px; 
+  padding-left :10px;
+  border-color :#D3D3D3;
+  width        :600px;
+  height       :35px;
+}
+#text
+{
+ color         : #538b01;
+ text-align    : center;
+ margin-bottom : 15px;
+ font-size     : 65px;
+}
+#title
+{
+color          : white;
+ margin-bottom : 15px;
+ font-size     : 60px;
+}
+#rel,#time,#mov
+{
+  font-family: "Lucida Console";
+  color         : white;
+  margin-bottom : 15px;
+  font-size     : 20px;
+}
+#newss
+{
+   padding-top   :40px;
+   color          : white;
+   padding-bottom:20px;
+   font-size     : 20px;
+}
+#ininew
+{
+   padding-bottom:15px;
+   font-size     :15px;
+   color          : white;
+}
+#retnew
+{
+   padding-top   :30px;
+   text-align: center;
+   color          : white;
+   font-size     :20px;
+}
