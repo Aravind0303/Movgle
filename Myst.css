@@ -6,7 +6,7 @@ body
 .align
 {
 position:fixed;
-top:40%;
+top:45%;
 left:50%;
 transform:translate(-50%,-50%);
 }
@@ -54,7 +54,7 @@ input
   border-radius:15px; 
   padding-left :10px;
   border-color :#D3D3D3;
-  width        :50%;
+  width        :60%;
   height       :35px;
 }
 #text
